@@ -1,0 +1,53 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Ignore all test directories anywhere in the project
+**/test/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+config.ini/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+airflow-webserver.pid
+
+# Data directories (optional, if you don't want to include sample data)
+data/
+
+# Docker
+.docker/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.cache
+
+# ignore dir outside the spotifyETL folder
+/venv/
+/.idea/
+/prevETL/
+/test/
+
+# ignore config file
+/.config.ini
+
+

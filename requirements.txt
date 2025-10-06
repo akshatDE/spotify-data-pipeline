@@ -1,0 +1,9 @@
+loguru
+pandas 
+boto3
+spotipy
+configparser
+schedule
+snowflake-connector-python
+psycopg2-binary
+mysql-connector-python
