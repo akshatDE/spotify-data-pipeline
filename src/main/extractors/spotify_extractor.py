@@ -110,7 +110,7 @@ class DataExtract:
         except Exception as e:
             logger.info(f"Got some error with exception {e}")
 
-    def extract_song_data(self, playlist_data):
+    def extract_song_data(self):
         """
         Extract song/track information from playlist data.
         
